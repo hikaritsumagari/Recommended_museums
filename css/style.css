@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Shippori Mincho B1', serif;
+}
+body{
+    width: 950px;
+    height: 800px;
+    display: block;
+    text-align:center;
+    font-size: 24px;
+    margin: auto;
+}
+ul{
+    padding: 0;
+    width:90%;
+}
+li{
+    list-style-type:none;
+}
+button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+}
+
+.art_wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+li img{
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    margin: 15px;
+    object-fit: contain;
+}
+
+h1{
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 2.0rem;
+}
+
+.btn{
+    width: fit-content;
+    height: 60px;
+    padding: 0 20px 0;
+    margin: 10px;
+    background-color: #c5bf9b;
+    color: #fff7ee
+    
+}
+
+.btn a:hover {
+    color: #c5bf9b;
+    background-color: #fff7ee;
+    border: 1px solid #c5bf9b;
+}
+
+.border{
+    outline: 5px solid #c5bf9b;
+}
+
+
+.img_wrap{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    padding: 20px 0;
+
+}
+
+.img_wrap img{
+    height: 150px;
+    width: 200px;
+    display: block;
+    object-fit: contain;
+    margin: 5px;
+}
+
+.img_wrap p{
+    font-size: 1.0rem;
+}
+
+.amsterdam{
+    display: none;
+}
+.chicago{
+    display: none;
+}
+.nga{
+    display: none;
+}
